@@ -21,7 +21,11 @@ function edt_id(id)
 {
 	if(confirm('Sure to edit ?'))
 	{
+
+		
 		window.location.href='edit_data.php?edit_id='+id;
+
+		// lets see how this works
 	}
 }
 function delete_id(id)
